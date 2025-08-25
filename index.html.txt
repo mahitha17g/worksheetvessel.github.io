@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>✨ Welcome to My Shop ✨</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Digital Worksheets & Learning Tools</h2>
+      <p>Buy and download instantly</p>
+    </section>
+
+    <section class="products">
+      <div class="product-card">
+        <img src="worksheet.jpg" alt="Worksheet">
+        <h3>Math Worksheet Pack</h3>
+        <p><strong>₹99</strong></p>
+
+        <!-- Razorpay Payment Button -->
+        <a href="https://rzp.io/l/YOUR_PAYMENT_LINK" target="_blank">
+          <button>Buy Now</button>
+        </a>
+
+        <!-- Alternative: PayPal Payment Button -->
+        <!--
+        <form action="https://www.paypal.com/ncp/payment" method="post" target="_blank">
+          <button type="submit">Buy with PayPal</button>
+        </form>
+        -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 My Shop | Powered by GitHub Pages</p>
+  </footer>
+</body>
+</html>

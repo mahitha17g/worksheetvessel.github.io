@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - My Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Our Products</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="products">
+      <div class="product-card">
+        <img src="worksheet.jpg" alt="Worksheet">
+        <h3>Math Worksheet Pack</h3>
+        <p><strong>₹99</strong></p>
+        <a href="https://rzp.io/l/YOUR_PAYMENT_LINK" target="_blank">
+          <button>Buy Now</button>
+        </a>
+      </div>
+
+      <div class="product-card">
+        <img src="worksheet2.jpg" alt="Worksheet">
+        <h3>Science Worksheet Pack</h3>
+        <p><strong>₹149</strong></p>
+        <a href="https://rzp.io/l/YOUR_PAYMENT_LINK" target="_blank">
+          <button>Buy Now</button>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 My Shop | Powered by GitHub Pages</p>
+  </footer>
+</body>
+</html>
